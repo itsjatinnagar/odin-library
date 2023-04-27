@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+
+form {
+    margin-inline: auto;
+    padding: 20px;
+    max-width: 740px;
+    background-color: #e0e0ff;
+    border-radius: 8px;
+}
+
+form input,
+form button {
+    padding: 8px 10px;
+}
+
+section#main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section#main div {
+    padding: 16px;
+    width: fit-content;
+    text-align: center;
+    background-color: #e0e0ff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.215);
+}
+
+section#main div h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+section#main div p {
+    font-weight: 300;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+}
